@@ -33,3 +33,8 @@ function removeElementFromBeginningOfArray(array) {
   retunArray = array.slice(1);
   return retunArray;
 }
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.pop();
+  return array;
+}
